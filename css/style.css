@@ -1,0 +1,34 @@
+body {
+    color:white;
+    background-color: darkblue;
+}
+
+.header {
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #00006B;
+}
+
+.content {
+    position: absolute;
+    top: 100px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #00006B;
+    text-align: center;
+}
+
+button {
+    background-color: yellow;
+    color: black;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
