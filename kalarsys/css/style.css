@@ -1,8 +1,9 @@
 body {
     color:white;
-    background-color: darkblue;
+    background: url("../img/bg.png") no-repeat center center fixed;
+    background-size: cover;
     overflow-x: hidden;
-    font-family: Tahoma, sans-serif
+    font-family: Tahoma, sans-serif;
 }
 
 .header {
@@ -16,6 +17,7 @@ body {
 .content {
     position: absolute;
     top: 100px;
+    text-shadow: 1px 1px black;
 }
 
 .footer {
